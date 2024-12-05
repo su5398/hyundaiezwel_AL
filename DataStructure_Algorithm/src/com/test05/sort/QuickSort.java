@@ -33,6 +33,7 @@ public class QuickSort {
 		int[] arr = {5,8,4,2,6,1,3,9,7};
 		quickSort(arr, 0, arr.length-1);
 		
+		System.out.println("퀵 정렬");
 		for(int i=0; i<arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
