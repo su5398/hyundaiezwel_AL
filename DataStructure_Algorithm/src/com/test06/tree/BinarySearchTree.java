@@ -158,7 +158,7 @@ public class BinarySearchTree<K,V> {
 				isLeftChild = false;
 			}
 			//left => 왼쪽 서브트리 중 가장 큰 노드, parent = left의 부모
-			//왼쪽 서브트리 중 가장 큰 노드를 삭제 할 노드에다 덮어 씌운다
+			//왼쪽 서브트리 중 가장 큰 노드를 삭제 할 노드에다 덮어 씌운다 
 			p.key = left.key;
 			p.data = left.data;
 			
